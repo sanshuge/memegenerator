@@ -1,11 +1,12 @@
+import React from "react"
 
 
 function Header(){
     return (
         <header className="header">
-        <img src="./images/Logo.png" />
-        <h2>Header component</h2>
-        <h4>React Course - Project 3</h4>
+        <img className="header--image" src="./images/Logo.png" />
+        <h2 className="header--title">Meme Generator</h2>
+        {/* <h4 className="header--project">React Course - Project 3</h4> */}
     </header>
         
     )
